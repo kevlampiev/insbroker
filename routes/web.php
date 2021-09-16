@@ -1,5 +1,8 @@
 <?php
 
+use App\Http\Controllers\customer\AboutController;
+use App\Http\Controllers\customer\ServicesController;
+use App\Http\Controllers\customer\TeamController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -13,6 +16,18 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('customer.index');
+
+
+Route::name('customer.')->group( function() {
+    Route::get('/', function () {
+        return view('customer.index');
+    })
+    ->name('home');
+    Route::get('/services',[ServicesController::class,'index'])
+    ->name('services');
+    Route::get('/about',[AboutController::class,'index'])
+    ->name('about');
+    Route::get('/team',[TeamController::class,'index'])
+    ->name('team');
+
 });
