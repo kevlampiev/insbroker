@@ -73,23 +73,26 @@
                         <li><a href="{{route('customer.about')}}">Общая информация</a></li>
                         <li><a href="{{route('customer.team')}}">Наша комманда</a></li>
 
-                        <li class="drop-down"><a href="#">Drop Down 2</a>
-                            <ul>
-                                <li><a href="#">Deep Drop Down 1</a></li>
-                                <li><a href="#">Deep Drop Down 2</a></li>
-                                <li><a href="#">Deep Drop Down 3</a></li>
-                                <li><a href="#">Deep Drop Down 4</a></li>
-                                <li><a href="#">Deep Drop Down 5</a></li>
-                            </ul>
-                        </li>
+{{--                        <li class="drop-down"><a href="#">Drop Down 2</a>--}}
+{{--                            <ul>--}}
+{{--                                <li><a href="#">Deep Drop Down 1</a></li>--}}
+{{--                                <li><a href="#">Deep Drop Down 2</a></li>--}}
+{{--                                <li><a href="#">Deep Drop Down 3</a></li>--}}
+{{--                                <li><a href="#">Deep Drop Down 4</a></li>--}}
+{{--                                <li><a href="#">Deep Drop Down 5</a></li>--}}
+{{--                            </ul>--}}
+{{--                        </li>--}}
                     </ul>
                 </li>
 
                 <li><a href="{{route('customer.services')}}">Услуги</a></li>
 {{--                <li><a href="portfolio.html">Portfolio</a></li>--}}
 {{--                <li><a href="pricing.html">Pricing</a></li>--}}
-                <li><a href="blog.html">Блог</a></li>
-                <li><a href="contact.html">Контакты</a></li>
+                <li><a href="{{route('customer.blog')}}">Блог</a></li>
+                <li><a href="{{route('customer.contacts')}}">Контакты</a></li>
+                <li><a href="#">Константин</a></li>
+                <li><a href="#">|</a></li>
+                <li><a href="#" onclick="return confirm('Вы действительно хотите выйти из системы?')">Выйти</a></li>
 
             </ul>
         </nav><!-- .nav-menu -->

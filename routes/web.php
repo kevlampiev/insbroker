@@ -1,6 +1,8 @@
 <?php
 
 use App\Http\Controllers\customer\AboutController;
+use App\Http\Controllers\customer\BlogController;
+use App\Http\Controllers\customer\ContactsController;
 use App\Http\Controllers\customer\ServicesController;
 use App\Http\Controllers\customer\TeamController;
 use Illuminate\Support\Facades\Route;
@@ -29,5 +31,9 @@ Route::name('customer.')->group( function() {
     ->name('about');
     Route::get('/team',[TeamController::class,'index'])
     ->name('team');
+    Route::get('/contacts',[ContactsController::class,'index'])
+    ->name('contacts');
+    Route::get('/blog',[BlogController::class,'index'])
+    ->name('blog');
 
 });
