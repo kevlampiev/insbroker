@@ -30,7 +30,7 @@ class InsuranceTypeController extends Controller
     /**
      * Store a newly created resource in storage.
      *
-     * @param  \Illuminate\Http\Request  $request
+     * @param \Illuminate\Http\Request $request
      * @return \Illuminate\Http\Response
      */
     public function store(Request $request)
@@ -41,7 +41,7 @@ class InsuranceTypeController extends Controller
     /**
      * Display the specified resource.
      *
-     * @param  \App\Models\InsuranceType  $insuranceType
+     * @param \App\Models\InsuranceType $insuranceType
      * @return \Illuminate\Http\Response
      */
     public function show(InsuranceType $insuranceType)
@@ -52,7 +52,7 @@ class InsuranceTypeController extends Controller
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  \App\Models\InsuranceType  $insuranceType
+     * @param \App\Models\InsuranceType $insuranceType
      * @return \Illuminate\Http\Response
      */
     public function edit(InsuranceType $insuranceType)
@@ -63,8 +63,8 @@ class InsuranceTypeController extends Controller
     /**
      * Update the specified resource in storage.
      *
-     * @param  \Illuminate\Http\Request  $request
-     * @param  \App\Models\InsuranceType  $insuranceType
+     * @param \Illuminate\Http\Request $request
+     * @param \App\Models\InsuranceType $insuranceType
      * @return \Illuminate\Http\Response
      */
     public function update(Request $request, InsuranceType $insuranceType)
@@ -75,7 +75,7 @@ class InsuranceTypeController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param  \App\Models\InsuranceType  $insuranceType
+     * @param \App\Models\InsuranceType $insuranceType
      * @return \Illuminate\Http\Response
      */
     public function destroy(InsuranceType $insuranceType)
