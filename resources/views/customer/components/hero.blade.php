@@ -12,7 +12,10 @@
                     <div class="carousel-container">
                         <div class="carousel-content">
                             <h2 class="animate__animated animate__fadeInDown">Welcome to <span>Eterna</span></h2>
-                            <p class="animate__animated animate__fadeInUp">Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti vel. Minus et tempore modi architecto.</p>
+                            <p class="animate__animated animate__fadeInUp">Ut velit est quam dolor ad a aliquid qui
+                                aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem
+                                mollitia ut. Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti
+                                vel. Minus et tempore modi architecto.</p>
                             <a href="" class="btn-get-started animate__animated animate__fadeInUp">Read More</a>
                         </div>
                     </div>
@@ -23,7 +26,10 @@
                     <div class="carousel-container">
                         <div class="carousel-content">
                             <h2 class="animate__animated fanimate__adeInDown">Lorem <span>Ipsum Dolor</span></h2>
-                            <p class="animate__animated animate__fadeInUp">Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti vel. Minus et tempore modi architecto.</p>
+                            <p class="animate__animated animate__fadeInUp">Ut velit est quam dolor ad a aliquid qui
+                                aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem
+                                mollitia ut. Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti
+                                vel. Minus et tempore modi architecto.</p>
                             <a href="" class="btn-get-started animate__animated animate__fadeInUp">Read More</a>
                         </div>
                     </div>
@@ -34,7 +40,10 @@
                     <div class="carousel-container">
                         <div class="carousel-content">
                             <h2 class="animate__animated animate__fadeInDown">Sequi ea <span>Dime Lara</span></h2>
-                            <p class="animate__animated animate__fadeInUp">Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti vel. Minus et tempore modi architecto.</p>
+                            <p class="animate__animated animate__fadeInUp">Ut velit est quam dolor ad a aliquid qui
+                                aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem
+                                mollitia ut. Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti
+                                vel. Minus et tempore modi architecto.</p>
                             <a href="" class="btn-get-started animate__animated animate__fadeInUp">Read More</a>
                         </div>
                     </div>

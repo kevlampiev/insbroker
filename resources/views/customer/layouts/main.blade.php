@@ -14,7 +14,9 @@
     <link href="{{asset('img/apple-touch-icon.png')}}" rel="apple-touch-icon">
 
     <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+        rel="stylesheet">
 
     <!-- Vendor CSS Files -->
     <link href="{{asset('vendor/bootstrap/css/bootstrap.min.css')}}" rel="stylesheet">
@@ -73,21 +75,21 @@
                         <li><a href="{{route('customer.about')}}">Общая информация</a></li>
                         <li><a href="{{route('customer.team')}}">Наша комманда</a></li>
 
-{{--                        <li class="drop-down"><a href="#">Drop Down 2</a>--}}
-{{--                            <ul>--}}
-{{--                                <li><a href="#">Deep Drop Down 1</a></li>--}}
-{{--                                <li><a href="#">Deep Drop Down 2</a></li>--}}
-{{--                                <li><a href="#">Deep Drop Down 3</a></li>--}}
-{{--                                <li><a href="#">Deep Drop Down 4</a></li>--}}
-{{--                                <li><a href="#">Deep Drop Down 5</a></li>--}}
-{{--                            </ul>--}}
-{{--                        </li>--}}
+                        {{--                        <li class="drop-down"><a href="#">Drop Down 2</a>--}}
+                        {{--                            <ul>--}}
+                        {{--                                <li><a href="#">Deep Drop Down 1</a></li>--}}
+                        {{--                                <li><a href="#">Deep Drop Down 2</a></li>--}}
+                        {{--                                <li><a href="#">Deep Drop Down 3</a></li>--}}
+                        {{--                                <li><a href="#">Deep Drop Down 4</a></li>--}}
+                        {{--                                <li><a href="#">Deep Drop Down 5</a></li>--}}
+                        {{--                            </ul>--}}
+                        {{--                        </li>--}}
                     </ul>
                 </li>
 
                 <li><a href="{{route('customer.services')}}">Услуги</a></li>
-{{--                <li><a href="portfolio.html">Portfolio</a></li>--}}
-{{--                <li><a href="pricing.html">Pricing</a></li>--}}
+                {{--                <li><a href="portfolio.html">Portfolio</a></li>--}}
+                {{--                <li><a href="pricing.html">Pricing</a></li>--}}
                 <li><a href="{{route('customer.blog')}}">Блог</a></li>
                 <li><a href="{{route('customer.contacts')}}">Контакты</a></li>
                 <li><a href="#">Константин</a></li>
@@ -111,7 +113,8 @@
             <div class="row">
                 <div class="col-lg-6">
                     <h4>Подписаться на новости</h4>
-                    <p>Введите адрес электронной почты, чтобы получать свежую информацию о страховании и возможностях финансового рынка</p>
+                    <p>Введите адрес электронной почты, чтобы получать свежую информацию о страховании и возможностях
+                        финансового рынка</p>
                 </div>
                 <div class="col-lg-6">
                     <form action="" method="post">
@@ -162,7 +165,8 @@
 
                 <div class="col-lg-3 col-md-6 footer-info">
                     <h3>О нас</h3>
-                    <p>Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada terra videa magna derita valies darta donna mare fermentum iaculis eu non diam phasellus.</p>
+                    <p>Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada terra videa magna derita
+                        valies darta donna mare fermentum iaculis eu non diam phasellus.</p>
                     <div class="social-links mt-3">
                         <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
                         <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>

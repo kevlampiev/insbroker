@@ -7,7 +7,7 @@
 
 @section('content')
 
-{{--    @include('customer.components.hero')--}}
+    {{--    @include('customer.components.hero')--}}
 
 
     <main id="main">
