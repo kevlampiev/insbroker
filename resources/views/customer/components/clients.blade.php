@@ -3,21 +3,25 @@
     <div class="container">
 
         <div class="section-title">
-            <h2>Наши клиенты</h2>
-            <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint
-                consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat
-                sit in iste officiis commodi quidem hic quas.</p>
+            <h2>Страховые компании</h2>
+            <p>
+                Сервис позволяет одновременно получать предложения крупнейших компаний России, имеющих позиции ruA
+                и выше в ежегодно составляемом <a href="https://www.raexpert.ru/ratings/insurance/?sort=rating&type=asc">
+                    рейтинге РА Эксперт</a>  - ведущей рейтинговой компанией России.
+                Рейтинг финансовой надежности страховой компании представляет собой мнение рейтингового агентства
+                «Эксперт РА» о способности выполнения страховой компанией ее текущих и будущих обязательств перед
+                страхователями и выгодоприобретателями.
+
+            </p>
         </div>
 
         <div class="owl-carousel clients-carousel">
-            <img src="{{asset('img/clients/client-1.png')}}" alt="">
-            <img src="{{asset('img/clients/client-2.png')}}" alt="">
-            <img src="{{asset('img/clients/client-3.png')}}" alt="">
-            <img src="{{asset('img/clients/client-4.png')}}" alt="">
-            <img src="{{asset('img/clients/client-5.png')}}" alt="">
-            <img src="{{asset('img/clients/client-6.png')}}" alt="">
-            <img src="{{asset('img/clients/client-7.png')}}" alt="">
-            <img src="{{asset('img/clients/client-8.png')}}" alt="">
+            <img src="{{asset('img/insurers/alfa.jpg')}}" alt="">
+            <img src="{{asset('img/insurers/reso.jpg')}}" alt="">
+            <img src="{{asset('img/insurers/rosgosstrah.jpg')}}" alt="">
+            <img src="{{asset('img/insurers/ingosstrah.jpg')}}" alt="">
+            <img src="{{asset('img/insurers/vsk.jpg')}}" alt="">
+            <img src="{{asset('img/insurers/renessans.jpg')}}" alt="">
         </div>
 
     </div>
