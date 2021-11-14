@@ -5,6 +5,7 @@ use App\Http\Controllers\customer\BlogController;
 use App\Http\Controllers\customer\ContactsController;
 use App\Http\Controllers\customer\ServicesController;
 use App\Http\Controllers\customer\TeamController;
+use App\Http\Controllers\customer\VehicleInsuranceRequestController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -35,6 +36,8 @@ Route::name('customer.')->group( function() {
     ->name('contacts');
     Route::get('/blog',[BlogController::class,'index'])
     ->name('blog');
+    Route::get('/vehicle-insurance-request',[VehicleInsuranceRequestController::class,'index'])
+    ->name('vehicleInsuranceRequest');
 
 });
 

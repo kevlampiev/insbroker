@@ -6,7 +6,7 @@
             <div class="col-lg-4">
                 <div class="icon-box">
                     <i class="icofont-articulated-truck"></i>
-                    <h3><a href="">Страхование техники </a></h3>
+                    <h3><a href="{{route('customer.vehicleInsuranceRequest')}}">Страхование техники </a></h3>
                     <p>Найти и сравнить предложения страховых компаний по страхованию техники для юридических лиц</p>
                 </div>
             </div>
