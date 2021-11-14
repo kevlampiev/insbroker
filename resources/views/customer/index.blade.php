@@ -2,7 +2,7 @@
 
 
 @section('title')
-    insBroker| Главная
+    iBro| Главная
 @endsection
 
 
@@ -14,8 +14,9 @@
     <main id="main">
 
         @include('customer.components.featured')
+
         @include('customer.components.about')
-        @include('customer.components.services')
+{{--        @include('customer.components.services')--}}
         @include('customer.components.clients')
 
     </main><!-- End #main -->

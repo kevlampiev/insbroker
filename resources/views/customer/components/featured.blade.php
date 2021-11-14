@@ -5,23 +5,23 @@
         <div class="row">
             <div class="col-lg-4">
                 <div class="icon-box">
-                    <i class="icofont-computer"></i>
-                    <h3><a href="">Lorem Ipsum</a></h3>
-                    <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
+                    <i class="icofont-articulated-truck"></i>
+                    <h3><a href="">Страхование техники </a></h3>
+                    <p>Найти и сравнить предложения страховых компаний по страхованию техники для юридических лиц</p>
                 </div>
             </div>
             <div class="col-lg-4 mt-4 mt-lg-0">
                 <div class="icon-box">
-                    <i class="icofont-image"></i>
-                    <h3><a href="">Dolor Sitema</a></h3>
-                    <p>Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata</p>
+                    <i class="icofont-industries-4"></i>
+                    <h3><a href="">Страхование недвижимости</a></h3>
+                    <p>Найти и сравнить предложения страховых компаний по страхованию коммерческой недвижимости</p>
                 </div>
             </div>
             <div class="col-lg-4 mt-4 mt-lg-0">
                 <div class="icon-box">
                     <i class="icofont-tasks-alt"></i>
-                    <h3><a href="">Sed ut perspiciatis</a></h3>
-                    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
+                    <h3><a href="">Мои запросы</a></h3>
+                    <p>Посмотреть состояние моих активных запросов на страхование техники и недвижимости</p>
                 </div>
             </div>
         </div>

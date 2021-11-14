@@ -11,8 +11,13 @@
                 <div class="carousel-item active" style="background: url({{asset('img/slide/slide-1.jpg')}})">
                     <div class="carousel-container">
                         <div class="carousel-content">
-                            <h2 class="animate__animated animate__fadeInDown">Welcome to <span>Eterna</span></h2>
-                            <p class="animate__animated animate__fadeInUp">Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti vel. Minus et tempore modi architecto.</p>
+                            <h2 class="animate__animated animate__fadeInDown">Привествуем на <span>iBRO</span></h2>
+                            <p class="animate__animated animate__fadeInUp">
+                                iBro - бесплатный сервис поддержки деятельности компаний и поиска максимально выгодных
+                                предложений страховых компаний при страховании имущества юридических лиц. Мы помогаем
+                                сосредоточиться на главном и берем на себя работу по сбору предложений
+                                страховых компаний - лидеров рынка
+                            </p>
                             <a href="" class="btn-get-started animate__animated animate__fadeInUp">Read More</a>
                         </div>
                     </div>
@@ -22,8 +27,11 @@
                 <div class="carousel-item" style="background: url({{asset('img/slide/slide-2.jpg')}}">
                     <div class="carousel-container">
                         <div class="carousel-content">
-                            <h2 class="animate__animated fanimate__adeInDown">Lorem <span>Ipsum Dolor</span></h2>
-                            <p class="animate__animated animate__fadeInUp">Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti vel. Minus et tempore modi architecto.</p>
+                            <h2 class="animate__animated fanimate__adeInDown"> Вы сами выбираете<span> уровень детализации</span></h2>
+                            <p class="animate__animated animate__fadeInUp">
+                                Вы сами выбираете уровень детализации запроса по страхованию. Наши специалисты готовы
+                                проконсультировать в любой момент в встроеном чате или по телефону
+                            </p>
                             <a href="" class="btn-get-started animate__animated animate__fadeInUp">Read More</a>
                         </div>
                     </div>
@@ -33,8 +41,12 @@
                 <div class="carousel-item" style="background: url({{asset('img/slide/slide-3.jpg')}})">
                     <div class="carousel-container">
                         <div class="carousel-content">
-                            <h2 class="animate__animated animate__fadeInDown">Sequi ea <span>Dime Lara</span></h2>
-                            <p class="animate__animated animate__fadeInUp">Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti vel. Minus et tempore modi architecto.</p>
+                            <h2 class="animate__animated animate__fadeInDown"> Абсолютная  <span> анонимность </span></h2>
+                            <p class="animate__animated animate__fadeInUp">
+                                Мы не требуем регистрарции или использования файлов cookie. Если Вам понравится
+                                работа с сервисом и вы захотите использовать его в будущем, вы можете создать личный кабинет,
+                                если Вам нужно подобрать страхование лишь разово, это не требуется
+                            </p>
                             <a href="" class="btn-get-started animate__animated animate__fadeInUp">Read More</a>
                         </div>
                     </div>

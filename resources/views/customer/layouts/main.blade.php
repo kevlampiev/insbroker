@@ -14,7 +14,9 @@
     <link href="{{asset('img/apple-touch-icon.png')}}" rel="apple-touch-icon">
 
     <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+        rel="stylesheet">
 
     <!-- Vendor CSS Files -->
     <link href="{{asset('vendor/bootstrap/css/bootstrap.min.css')}}" rel="stylesheet">
@@ -59,9 +61,9 @@
     <div class="container d-flex">
 
         <div class="logo mr-auto">
-            <h1 class="text-light"><a href="{{route('customer.home')}}"><span>Eterna</span></a></h1>
+{{--            <h1 class="text-light"><a href="{{route('customer.home')}}"><span>iBroker</span></a></h1>--}}
             <!-- Uncomment below if you prefer to use an image logo -->
-            <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+            <a href="index.html"><img src="{{asset('img/logo.png')}}" alt="" class="img-fluid"></a>
         </div>
 
         <nav class="nav-menu d-none d-lg-block">
@@ -73,21 +75,21 @@
                         <li><a href="{{route('customer.about')}}">Общая информация</a></li>
                         <li><a href="{{route('customer.team')}}">Наша комманда</a></li>
 
-{{--                        <li class="drop-down"><a href="#">Drop Down 2</a>--}}
-{{--                            <ul>--}}
-{{--                                <li><a href="#">Deep Drop Down 1</a></li>--}}
-{{--                                <li><a href="#">Deep Drop Down 2</a></li>--}}
-{{--                                <li><a href="#">Deep Drop Down 3</a></li>--}}
-{{--                                <li><a href="#">Deep Drop Down 4</a></li>--}}
-{{--                                <li><a href="#">Deep Drop Down 5</a></li>--}}
-{{--                            </ul>--}}
-{{--                        </li>--}}
+                        {{--                        <li class="drop-down"><a href="#">Drop Down 2</a>--}}
+                        {{--                            <ul>--}}
+                        {{--                                <li><a href="#">Deep Drop Down 1</a></li>--}}
+                        {{--                                <li><a href="#">Deep Drop Down 2</a></li>--}}
+                        {{--                                <li><a href="#">Deep Drop Down 3</a></li>--}}
+                        {{--                                <li><a href="#">Deep Drop Down 4</a></li>--}}
+                        {{--                                <li><a href="#">Deep Drop Down 5</a></li>--}}
+                        {{--                            </ul>--}}
+                        {{--                        </li>--}}
                     </ul>
                 </li>
 
                 <li><a href="{{route('customer.services')}}">Услуги</a></li>
-{{--                <li><a href="portfolio.html">Portfolio</a></li>--}}
-{{--                <li><a href="pricing.html">Pricing</a></li>--}}
+                {{--                <li><a href="portfolio.html">Portfolio</a></li>--}}
+                {{--                <li><a href="pricing.html">Pricing</a></li>--}}
                 <li><a href="{{route('customer.blog')}}">Блог</a></li>
                 <li><a href="{{route('customer.contacts')}}">Контакты</a></li>
                 <li><a href="#">Константин</a></li>
@@ -111,7 +113,8 @@
             <div class="row">
                 <div class="col-lg-6">
                     <h4>Подписаться на новости</h4>
-                    <p>Введите адрес электронной почты, чтобы получать свежую информацию о страховании и возможностях финансового рынка</p>
+                    <p>Введите адрес электронной почты, чтобы получать свежую информацию о страховании и возможностях
+                        финансового рынка</p>
                 </div>
                 <div class="col-lg-6">
                     <form action="" method="post">
@@ -151,18 +154,19 @@
                 <div class="col-lg-3 col-md-6 footer-contact">
                     <h4>Контактная информация</h4>
                     <p>
-                        A108 Adam Street <br>
-                        New York, NY 535022<br>
-                        United States <br><br>
-                        <strong>Phone:</strong> +1 5589 55488 55<br>
-                        <strong>Email:</strong> info@example.com<br>
+                        г.Новокузнецк <br>
+                        Проспект Курако 49а<br>
+                        офис 404<br><br>
+                        <strong>Телефон:</strong> +7 (983) 111-0222
+                        <br>
+                        <strong>Email:</strong> contact@example.com<br>
                     </p>
 
                 </div>
 
                 <div class="col-lg-3 col-md-6 footer-info">
                     <h3>О нас</h3>
-                    <p>Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada terra videa magna derita valies darta donna mare fermentum iaculis eu non diam phasellus.</p>
+                    <p>Компания осуществляет деятельность в сфере информационных услуг с 2021 года</p>
                     <div class="social-links mt-3">
                         <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
                         <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
@@ -176,18 +180,18 @@
         </div>
     </div>
 
-    <div class="container">
-        <div class="copyright">
-            &copy; Copyright <strong><span>Eterna</span></strong>. All Rights Reserved
-        </div>
-        <div class="credits">
-            <!-- All the links in the footer should remain intact. -->
-            <!-- You can delete the links only if you purchased the pro version. -->
-            <!-- Licensing information: https://bootstrapmade.com/license/ -->
-            <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/eterna-free-multipurpose-bootstrap-template/ -->
-            Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
-        </div>
-    </div>
+{{--    <div class="container">--}}
+{{--        <div class="copyright">--}}
+{{--            &copy; Copyright <strong><span>Eterna</span></strong>. All Rights Reserved--}}
+{{--        </div>--}}
+{{--        <div class="credits">--}}
+{{--            <!-- All the links in the footer should remain intact. -->--}}
+{{--            <!-- You can delete the links only if you purchased the pro version. -->--}}
+{{--            <!-- Licensing information: https://bootstrapmade.com/license/ -->--}}
+{{--            <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/eterna-free-multipurpose-bootstrap-template/ -->--}}
+{{--            Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>--}}
+{{--        </div>--}}
+{{--    </div>--}}
 </footer><!-- End Footer -->
 
 <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
